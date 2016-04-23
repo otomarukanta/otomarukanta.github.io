@@ -1,0 +1,95 @@
+.home-menu {
+  padding: 0.5em;
+  text-align: center;
+  box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
+  background: #2980b9;
+}
+
+.pure-menu.pure-menu-fixed {
+  border-bottom: none;
+  z-index: 4;
+}
+
+.home-menu .pure-menu-heading {
+  color: white;
+  font-weight: 400;
+  font-size: 120%;
+}
+
+.home-menu .pure-menu-selected a {
+  color: white;
+}
+
+.home-menu a {
+  color: #6FBEF3;
+}
+
+.splash-container {
+  /* background: #1f8dd6; */
+  background-image: url('../img/top.jpg');
+  background-size: cover;
+  background-position: center center; 
+  z-index: 1;
+  overflow: hidden;
+  width: 100%;
+  height: 80%;
+  top: 0;
+  left: 0;
+  position: fixed !important;
+}
+
+.splash {
+  width: 60%;
+  height: 10%;
+  margin: auto;
+  position: absolute;
+  top: 40px; left: 0; bottom: 0; right: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+.splash-head {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  border: 3px solid white;
+  padding: 1em 1.6em;
+  font-weight: 100;
+  border-radius: 5px;
+  line-height: 1em;
+}
+
+.splash-subhead {
+  color: white;
+  letter-spacing: 0.05em;
+  opacity: 0.8;
+}
+
+.content-wrapper {
+  position: absolute;
+  top: 80%;
+  width: 100%;
+  min-height: 12%;
+  z-index: 2;
+  background: white;
+}
+
+.content-head {
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 2em 0 1em;
+}
+
+.content-subhead {
+  color: #2980b9;
+}
+
+ /* For Desktop */
+@media (min-width: 78em) {
+  /* We increase the header font size even more */
+  .splash-head {
+    font-size: 300%;
+  }
+}

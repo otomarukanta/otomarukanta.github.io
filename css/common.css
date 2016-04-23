@@ -1,0 +1,26 @@
+/* Base style */
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.4em;
+  color: #34495e;
+  /* background-color: #222831; */
+  /* font-family:Arial, sans-serif; */
+  font-size:0.9em;
+}
+
+.content {
+  padding: 1em;
+  /* background-color: #222831; */
+}
+
+
+/* Style utils */
+.is-center {
+  text-align: center;
+}
+
+.pure-button {
+  background: #2980b9;
+  color: white;
+}

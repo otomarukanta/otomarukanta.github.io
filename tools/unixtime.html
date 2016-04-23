@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <title>Unix Converter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+    <link rel="stylesheet" href="/css/common.css">
+    <link rel="stylesheet" href="/css/unixtime.css">
+  </head>
+  <body>
+    <h1>unixtime utils</h1>
+    <div class=content>
+      <form class="pure-form pure-form-stacked">
+        <fieldset>
+          <div class="pure-g">
+            <div class="pure-u-1-2">
+              <label for="input_dec">Decimal Unixtime</label>
+              <input id="input_dec" class="pure-u-23-24" type="text" autocomplete="off" value="" />
+            </div>
+            <div class="pure-u-1-2">
+              <label for="input_hex">Hexdecimal Unixtime</label>
+              <input id="input_hex" class="pure-u-23-24" type="text" autocomplete="off" value="" />
+            </div>
+          </div>
+          <div class="arrow">
+          </div>
+          <div class="pure-u-1 input">
+            <label>JST</label>
+            <!-- <output id="output_jst"></output> -->
+            <input id="output_jst" class="pure-input-1" type="text" readonly>
+          </div>
+        </fieldset>
+      </form>
+    </div>  
+    <script type="text/javascript" src="/js/unixtime.js"></script>
+  </body>
+</html>
+

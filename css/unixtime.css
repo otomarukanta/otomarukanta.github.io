@@ -1,0 +1,10 @@
+.arrow{
+  margin: 0.5em auto;
+  width: 0;
+  height: 0;
+  border-top: 3em solid #CCC;
+  border-left: 3em solid transparent;
+  border-right: 3em solid transparent;
+  position: relative;
+}
+
